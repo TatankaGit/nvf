@@ -14,7 +14,7 @@
     in {
     packages."x86_64-linux".configuredNvim = 
         (nvf.lib.neovimConfiguration {
-          pkgs = nixpkgs.legacyPackages.x86_64-linux;
+          inherit pkgs;
           modules = pluginsModule ++ configModule;
         })
         .neovim;
