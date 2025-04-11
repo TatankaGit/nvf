@@ -1,8 +1,6 @@
-{
-  import = [
-    ./theme.nix
-    ./options.nix
-    ./keybinds.nixy
-    ./autocommands.nix
-  ];
-}
+[
+  ./theme.nix
+  ./options.nix
+  ./keybinds.nix
+  ./autocommands.nix
+]

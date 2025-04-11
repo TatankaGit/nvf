@@ -1,4 +1,4 @@
-{ config, pkgs }:
+{ config, pkgs, ... }:
 {
   config.vim.extraPlugins = with pkgs.vimPackages; {
     vim-sleuth = {

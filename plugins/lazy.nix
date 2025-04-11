@@ -1,4 +1,4 @@
-{ config, pkgs }:
+{ config, pkgs, ... }:
 {
   config.vim.lazy = {
     enable = true;

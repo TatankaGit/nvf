@@ -1,4 +1,4 @@
-{ config }:
+{ config, ... }:
 {
   vim.telescope = {
     enable = true;

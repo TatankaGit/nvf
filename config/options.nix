@@ -1,8 +1,7 @@
 
-{ config }:
+{ config, lib, pkgs, ... }:
 {
-  config.vim.options = {
-    extraConfigLua = '' 
+  config.vim.options.extraConfigLua = '' 
       vim.opt.number = true
       vim.opt.relativenumber = true
       vim.opt.mouse = 'a'
@@ -23,5 +22,4 @@
       vim.opt.scrolloff = 15
       vim.opt.confirm = true
     '';
-  };    
 }

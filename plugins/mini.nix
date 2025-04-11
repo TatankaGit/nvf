@@ -1,4 +1,4 @@
-{ config, lib }:
+{ config, lib, ... }:
 {
   config.vim.mini = {
     ai.enable = true;
