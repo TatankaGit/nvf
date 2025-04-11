@@ -23,6 +23,7 @@
           modules = [
             {
               vim = {
+                useSystemClipboard = true;
                 undoFile.enable = true;
                 searchCase = "sensitive";
                 scrollOffset = 12;
