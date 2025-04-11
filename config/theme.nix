@@ -1,9 +1,16 @@
-{config, lib, ... }:
+{config, lib, pkgs, ... }:
 
 {
-  config.vim.theme = {
-    enable = true;
-    name = "oxocarbon";
-    style = "dark";
+  config.vim = {
+    extraPlugins = with pkgs.vimPlugins; {
+      oxocarbon = {
+        package = oxocarbon-nvim;
+      };
+    };
+    theme = {
+      enable = true;
+      name = "oxocarbon";
+      style = "dark";
+    };
   };
 }

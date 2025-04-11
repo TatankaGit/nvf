@@ -1,13 +1,7 @@
 { config, lib, pkgs, ... }:
 
 {
-  config.vim = {
-    globals = {
-      mapleader = " ";
-      maplocalleader = " ";
-      have_nerd_font = false;
-    };
-    keymaps = [
+  config.vim.keymaps = [
       {
           mode = "n";
           key = "<Esc>";
@@ -16,7 +10,7 @@
       {
           mode = "n";
           key = "<leader>q";
-          action = "vim.diagnostic.setloclist";
+          action = "<cmd>vim.diagnostic.setloclist<CR>";
       }
       {
           mode = "t";
@@ -46,8 +40,7 @@
             {
                 mode = "n";
             key = "gD";
-            action = "vim.lsp.buf.declaration";
+            action = "<cmd>vim.lsp.buf.declaration<CR>";
             }
       ];
-  };
 }

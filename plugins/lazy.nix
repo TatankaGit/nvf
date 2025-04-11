@@ -13,7 +13,6 @@
       };
       plenary-nvim = {
         package = "plenary-nvim";
-        setupModule = "plenary";
       };
     };
   };
