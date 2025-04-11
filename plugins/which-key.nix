@@ -1,6 +1,6 @@
-{ config, ... }:
+{ ... }:
 {
-  config.vim.binds.whichKey = {
+  vim.binds.whichKey = {
     enable = true;
     register = {
       "<leader>c" = "Code";

@@ -1,6 +1,6 @@
-{ config, pkgs, ... }:
+{ pkgs, ... }:
 {
-  config.vim.lazy = {
+  vim.lazy = {
     enable = true;
     plugins = {
        todo-comments-nvim = {

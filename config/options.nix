@@ -1,7 +1,7 @@
 
-{ config, lib, pkgs, ... }:
+{  lib, pkgs, ... }:
 {
-  config.vim = {
+  vim = {
     undoFile.enable = true;
     searchCase = "sensitive";
     scrollOffset = 12;

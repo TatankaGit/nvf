@@ -1,7 +1,7 @@
-{ config, lib, pkgs, ... }:
+{ lib, pkgs, ... }:
 
 {
-  config.vim.keymaps = [
+  vim.keymaps = [
       {
           mode = "n";
           key = "<Esc>";

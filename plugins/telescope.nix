@@ -1,12 +1,12 @@
-{ config, pkgs, ... }:
+{  pkgs, ... }:
 {
-  config.vim.extraPlugins = with pkgs.vimPlugins; {
+  vim.extraPlugins = with pkgs.vimPlugins; {
     # Include the fzf-native extension for Telescope
     telescope-fzf-native = {
       package = telescope-fzf-native-nvim;
     };
   };
-  config.vim.telescope = {
+  vim.telescope = {
     enable = true;
     setupOpts = {
       defaults = {

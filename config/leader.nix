@@ -1,8 +1,8 @@
 
-{ config, lib, pkgs, ... }:
+{  lib, pkgs, ... }:
 
 {
-  config.vim = {
+  vim = {
     globals = {
       mapleader = " ";
       maplocalleader = " ";

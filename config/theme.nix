@@ -1,7 +1,7 @@
-{config, lib, pkgs, ... }:
+{ lib, pkgs, ... }:
 
 {
-  config.vim = {
+  vim = {
     extraPlugins = with pkgs.vimPlugins; {
       oxocarbon = {
         package = oxocarbon-nvim;

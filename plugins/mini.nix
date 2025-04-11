@@ -1,6 +1,6 @@
-{ config, lib, ... }:
+{ lib, ... }:
 {
-  config.vim.mini = {
+  vim.mini = {
     ai.enable = true;
     align.enable = true;
     bracketed.enable = false; # creates some interesting movement options

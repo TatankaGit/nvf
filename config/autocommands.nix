@@ -1,6 +1,6 @@
-{ config, lib, pkgs, ... }:
+{ lib, ... }:
 {
-  config.vim = {
+  vim = {
     augroups = [
       {
         name = "kickstart-highlight-yank";

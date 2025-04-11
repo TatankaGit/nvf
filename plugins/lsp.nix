@@ -1,7 +1,7 @@
-{ config, ... }:
+{  ... }:
 
 {
-  config.vim.languages = {
+  vim.languages = {
     enableFormat = true;
     enableLSP = true;
     enableTreesitter = true;
