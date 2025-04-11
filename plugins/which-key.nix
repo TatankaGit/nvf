@@ -11,7 +11,7 @@
       "<leader>t" = "Toggle";
       "<leader>h" = "Git Hunk";
     };
-    opts = {
+    setupOpts = {
       delay = 0;
       icons = {
         mappings = "vim.g.have_nerd_font";

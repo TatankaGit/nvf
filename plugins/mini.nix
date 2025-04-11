@@ -3,11 +3,10 @@
   config.vim.mini = {
     ai.enable = true;
     align.enable = true;
-    base16.enable = false; # enable for base16 theming
     bracketed.enable = false; # creates some interesting movement options
     hipatterns.enable = true;
     hipatterns.setupOpts = {
-      highlighters = lib.generators.mkLuaInLine ''{ hex_color = hipatterns.gen_highlighter.hex_xolor(),}'';
+      highlighters = lib.generators.mkLuaInline ''{ hex_color = hipatterns.gen_highlighter.hex_xolor(),}'';
     };
     indentscope.enable = false; #animated tab line showing scope of cursor position
     jump.enable = true;
