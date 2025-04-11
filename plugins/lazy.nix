@@ -1,4 +1,3 @@
-{ pkgs, ... }:
 {
   vim.lazy = {
     enable = true;

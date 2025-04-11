@@ -1,11 +1,4 @@
-{  pkgs, ... }:
 {
-  vim.extraPlugins = with pkgs.vimPlugins; {
-    # Include the fzf-native extension for Telescope
-    telescope-fzf-native = {
-      package = telescope-fzf-native-nvim;
-    };
-  };
   vim.telescope = {
     enable = true;
     setupOpts = {
@@ -27,14 +20,6 @@
           "result/"
         ];
         path_display = [ "smart" ];
-      };
-      extensions = {
-        fzf = {
-          fuzzy = true;
-          override_generic_sorter = true;
-          override_file_sorter = true;
-          case_mode = "smart_case";
-        };
       };
     };
     mappings = {

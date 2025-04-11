@@ -1,4 +1,3 @@
-{ lib, ... }:
 {
   vim.mini = {
     ai.enable = true;

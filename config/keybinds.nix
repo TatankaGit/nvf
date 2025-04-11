@@ -1,5 +1,3 @@
-{ lib, pkgs, ... }:
-
 {
   vim.keymaps = [
       {

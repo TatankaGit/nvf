@@ -1,12 +1,9 @@
-
-{  lib, pkgs, ... }:
-
 {
   vim = {
     globals = {
       mapleader = " ";
       maplocalleader = " ";
-      have_nerd_font = false;
+      have_nerd_font = true;
     };
   };
 }

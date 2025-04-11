@@ -1,5 +1,3 @@
-{  ... }:
-
 {
   vim.languages = {
     enableFormat = true;
